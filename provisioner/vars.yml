@@ -1,8 +1,8 @@
 ---
 project_name: udisplay
-project_repo_url: git@github.com:bzero/uDisplay.git
+project_repo_url: https://github.com/bzero/uDisplay.git
 project_repo_remote: origin
-domain_name: udisplay.com
+domain_name: localhost
 repo_version: master
 py_version: 3
 pg_gis: False
