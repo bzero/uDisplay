@@ -186,7 +186,7 @@ EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND',
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 DATABASES = {
-    'default': env.db("DATABASE_URL", default="postgres://localhost/udisplay"),
+    'default': env.db("DATABASE_URL", default="postgres://dev:password@localhost/udisplay"),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 DATABASES['default']['CONN_MAX_AGE'] = 10
